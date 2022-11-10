@@ -38,3 +38,10 @@ img {
     margin-bottom: 30px;
     font-weight: 400;
 }
+
+
+@media screen and (max-width: 600px) {
+    .container {
+        margin: 100px auto 50px;
+    }
+}
