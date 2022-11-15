@@ -41,38 +41,45 @@ While doing this project I had to use flexbox to position the elements properly 
 
 ```html
 
-<div class="container">
+<main>
 
-    <img src="images/image-qr-code.png" alt="">
+    <img src="images/image-qr-code.png" alt="qr-code-image">
 
-    <div class="text-1">Improve your front-end<br>skills by building projects</div>
+    <h1>Improve your front-end<br>skills by building projects</h1>
 
-    <div class="text-2">Scan the QR code to visit Frontend<br> Mentor and take your coding skills <br>to the next level</div>
+    <p>Scan the QR code to visit Frontend<br> Mentor and take your coding skills <br>to the next level</p>
   
     
-</div>
+  </main>
+
 ```
 ```css
-
-body {
+body{
     background-color:  hsl(212, 45%, 89%);
     font-family: 'Outfit', sans-serif;
+    display:flex; 
+    flex-direction:column; 
+    justify-content:center;
+    min-height:100vh;
+    align-items: center;
+    margin: 0;
     
-   
 }
+
 img {
     max-width:100%;
-    max-height:100%;
+    display: block;
     border-radius: 10px;
 }
-.container {
-    width: 300px;
-    margin: 200px auto;
+
+main{
+    max-width: 325px;
     text-align: center;
     padding: 20px 15px;
     background-color: white;
     border-radius: 20px;
 }
+
 ```
 
 
