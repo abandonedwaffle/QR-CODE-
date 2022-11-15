@@ -55,6 +55,7 @@ While doing this project I had to use flexbox to position the elements properly 
 ```
 ```css
 body{
+    
     background-color:  hsl(212, 45%, 89%);
     font-family: 'Outfit', sans-serif;
     display:flex; 
@@ -62,8 +63,7 @@ body{
     justify-content:center;
     min-height:100vh;
     align-items: center;
-    margin: 0;
-    
+    overflow-y: hidden;
 }
 
 img {
