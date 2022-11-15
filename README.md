@@ -73,9 +73,9 @@ img {
 }
 
 main{
-    max-width: 325px;
+    max-width: 300px;
     text-align: center;
-    padding: 20px 15px;
+    padding: 18px 15px;
     background-color: white;
     border-radius: 20px;
 }
